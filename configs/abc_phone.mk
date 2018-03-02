@@ -22,6 +22,12 @@ include vendor/nexus/configs/version.mk
 PRODUCT_PACKAGES += \
     Stk
 
+PRODUCT_PACKAGES += \
+    Gallery2 \
+    Messaging \
+    Camera2 \
+    SnapdragonCamera
+
 # Allow tethering without provisioning app
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
